@@ -1,0 +1,229 @@
+/* body{
+    padding-left: 15%;
+    padding-right: 15%;   
+}
+.header{
+    display: flex;
+}
+
+.welcome{
+    width: 50vw;
+    float  :left;
+}
+
+.img1{
+    float: right;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.button{
+    background-color: #FF8BA7;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 6px 42px;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Intro */
+
+.header {
+    background-color: #FAEEE7;
+    padding: 25px 0px;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 40px;
+}
+
+.header nav a {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header nav .nav-link {
+    justify-content: space-between;
+}
+
+.header nav .nav-link a {
+    margin-right: 20px;
+}
+
+.header .content-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .content-header .welcome {
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+.header .content-header .welcome h1{
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.header .content-header .welcome p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.header .content-header img {
+    margin-right: 12%;
+}
+
+/* Intro End */
+/* Projects */
+
+.projects .projets-title {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+}
+
+.projects .projets-subtitle {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+}
+
+.projects .projects-content {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.projects .projects-content .project-cards{
+    display: flex;
+    background-color: #FAEEE7;
+    border-color: #000;
+    margin: 50px;
+    padding: 20px;
+    flex-basis: 30%;
+    text-align: center;
+    border-radius: 30px;
+    height: 300px;
+    width: 500px;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects .projects-content .project-cards h3{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.projects .projects-content .project-cards h3 img{
+    height: 40px;
+    width: 40px;
+    padding-top: 1px;
+}
+
+.projects .projects-content .project-cards p{
+    font-weight: 500;
+}
+
+.projects .projects-content .project-cards button{
+    margin: 10px;
+}
+
+/* Projects End */
+/* About */
+.about {
+    background-color: #FAEEE7;
+    padding: 25px 0px;
+}
+
+.about .about-text{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.about .container {
+    height: 400px;
+    width: 800px;
+    top: 60px;
+    display: flex;
+    padding-top: 2px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.about .container .card {
+    display: flex;
+    height: 380px;
+    width: 250px;
+    background-color: #fffffe;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #33272A;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+.about .container .card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.about .container .card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.about .container .card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.about .container .card .card-title {
+    color: #000;
+    font-weight: 600;
+    position: absolute;
+    left: calc(50% - 60px);
+    top: 15px;
+}
+
+.about .container .card .card-content {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+/* About End */
+/* Footer */
+.footer {
+    justify-content: center;
+    text-align: center;
+}
