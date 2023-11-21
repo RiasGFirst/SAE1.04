@@ -24,6 +24,8 @@ body {
 *{
     font-family: "Poppins", sans-serif;
     text-decoration: none;
+    scroll-behavior: smooth;
+    transition: all 0.7s;
 }
 
 .button{
@@ -58,11 +60,14 @@ body {
 }
 
 .header nav .nav-link {
-    justify-content: space-between;
+    display: flex;
+    gap: 20px;
 }
 
-.header nav .nav-link a {
-    margin-right: 20px;
+.header nav .nav-link a img {
+    margin-top: 5px;
+    width: 32px;
+    height: 32px;
 }
 
 .header .content-header{
