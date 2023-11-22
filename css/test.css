@@ -156,10 +156,24 @@ body {
 
 .projects .projects-content .project-cards p{
     font-weight: 500;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 .projects .projects-content .project-cards button{
     margin: 10px;
+}
+
+span {
+  display: block;
+  width: 75%;
+  height: 5px;
+  margin: 0px 15%;
+  position: relative;
+  
+  background: #000;
+  border-radius: 3px;
 }
 
 /* Projects End */
@@ -182,9 +196,14 @@ body {
     top: 60px;
     display: flex;
     padding-top: 2px;
-    margin: auto;
+    margin: 30px auto auto auto;
     left: 0;
     right: 0;
+}
+
+.about .cplus {
+    height: 400px;
+    width: 500px;
 }
 
 .about .container .card {
@@ -198,6 +217,11 @@ body {
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
+}
+
+.about .container .ccplus {
+    height: 380px;
+    width: 300px;
 }
 
 .about .container .card:not(:first-child) {
@@ -235,7 +259,6 @@ body {
     text-align: center;
 }
 
-
 /* RESPONSIVE */
 
 @media screen and (max-width: 960px) {
@@ -244,11 +267,30 @@ body {
         height: 50%;
         width: 50%;
     }
-    
+
+    .projects .projects-content .project-cards h3 img{
+        display: none;
+    }
+
+    .about .container {
+        height: 50%;
+        width: 75%;
+        top: 60px;
+        display: flex;
+        padding-top: 2px;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
     .projects .projects-content .project-cards p{
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 500;
     }
+
+    .projects .projects-content .project-cards button{
+        margin: 5px;
+    }    
 
     .about .container .card {
         display: flex;
