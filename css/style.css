@@ -263,6 +263,11 @@ span {
     text-align: center;
 }
 
+.credit a {
+    font-weight: 600;
+    color: #000;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 960px) {
