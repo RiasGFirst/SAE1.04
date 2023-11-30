@@ -68,6 +68,11 @@ body {
     gap: 20px;
 }
 
+.header nav .nav-link .flags {
+    width: 32px;
+    height: 32px;
+}
+
 /*.header nav .nav-link a img {
     margin-top: 5px;
     width: 32px;
